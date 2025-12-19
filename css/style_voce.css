@@ -1,0 +1,231 @@
+﻿body
+{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    border: none;
+    padding: 0;
+    text-align: center;
+    background: #EFEFEF url(../images/content_new.png) repeat-y center bottom;
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+}
+
+body, div, p, th, li, dd {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+#wrapper {
+	width: 960px;
+	text-align: center;
+	margin: 0px auto 10px;
+	background-color: #fff;
+}
+#header {
+	width:960px; 
+	margin:0 auto 10px auto; 
+	background-color:#FDFDFD; 
+	text-align:left;
+	height:122px;
+	position:fixed;
+	z-index:100;
+	top:0;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #FA8108;
+}
+
+#header .logoright
+{
+    right:0px; 
+    position:absolute;
+    top:1px;
+    background-image:url(../images/logoSole.png);
+    width:55px;
+    height:114px;
+}
+
+#header .logoleft
+{
+    left:5px; 
+    position:absolute;
+    top:15px;
+    background-image:url(../images/logoAbbott.png);
+    width:122px;
+    height:50px;
+}
+#header .infopanel 
+{
+	float: left;
+	margin-top: 5px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+#titoloStudio
+{
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    top: 35px;
+    position: absolute;
+    float:right;
+    right: 80px;
+    width: 100%;
+    color: #FA8108;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menutesta
+{
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #000000;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #000000;
+    background-color: #FA8108;
+    float: right;
+    top: 0px;
+    right: 80px;
+    position: absolute;
+    color: #FFFFFF;
+    height: 25px;
+    width: 75%;
+}
+
+#header .infopanel ul { margin: 0; padding: 0; list-style: none; }
+ .infopanel ul li
+{
+    padding: 0 5px 0 8px;
+    margin: 0;
+    color: White;
+    border-left: 1px solid #AD002E;
+    text-align: left;
+    display: inline;
+}
+#header .infopanel ul li strong { color: #212627 }
+#header .infopanel ul li.last { display: inline;border-right: 0;position:absolute;right:2px;top:5px }
+#header .infopanel a
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #AD002E;
+    text-decoration: none;
+}
+#header .infopanel a:hover
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #E8E8E8;
+    text-decoration: none;
+}
+
+#header .nav
+{
+    position: absolute;
+    top: 95px;
+    width: 961px;
+    height: 25px;
+    background: #0E3561 url(../images/nav_bg1.gif) repeat-x 0 0;
+    border-top: 1px solid #103F72;
+    border-bottom: 1px solid #1F79DC;
+    float:left;
+    display:block;
+}
+
+	#header .nav ul {
+		float: left;
+		height: 25px;
+		margin-top: 0px;
+		margin-left: 0px;
+		display: block;
+		padding: 0;
+		list-style: none;
+		background: #444b4d url(../images/nav_bg1.gif) repeat-x 0 0;
+	}
+	 #header .nav li {
+		float: left;
+		display: inline;
+		margin: 0;
+		padding: 0;
+		background: url(../images/nav_inset1.gif) no-repeat top right;
+	}
+	#header .nav a 
+	{
+		float: left;
+		width: 90px;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		line-height: 25px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		font-weight: bold;
+		color: #c8d1d4;
+		text-decoration: none;
+		
+	}
+	#header .nav li.selected a,
+	#header .nav a:hover { background: url(../images/nav_over_bg1.gif) repeat-x 0 0; color: #ffffff }
+	#header .nav li.last {
+	background-position: top left;
+	float: right;
+	padding: 0px 0px 0px 0px;
+}
+
+#header .nav li.selected a,
+	#header .nav a:hover { color: #ffffff }
+	#header .nav li.last {
+	background-position: top left;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	border-left: 1px solid #666666;
+}
+
+div#infopanelPaz
+{
+    float: right;
+    margin-top: 105px;
+    margin-right: 20px;
+    text-align: right;
+    position:absolute;
+    right:0;
+}
+#infopanelPaz ul { margin: 0; padding: 0; list-style: none; }
+#infopanelPaz ul li
+{
+    padding: 0 5px 0 8px;
+    margin: 0;
+    color: Black;
+    border-left: 1px solid #a5aea4;
+    text-align: left;
+    left: 0;
+    display: inline;
+}
+div#content {
+	width:960px; 
+	background-color:#fff; 
+	text-align:center;
+}
+.contTable
+{
+    top: 190px;
+    text-align: center;
+    position: relative;
+}
+.titolo
+{
+    text-align:center; 
+    font-size:18px; 
+    top:140px;
+    position:absolute;
+    left:0;
+    width:100%;
+}

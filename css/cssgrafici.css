@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font-family: century gothic; color: #808080; width: 80%; margin: 0 auto; background-color: rgba(57,57,57,0.8)}
+
+#prima_linea, #seconda_linea, #terza_linea{float: left; width: 100%; margin-left: 10%}
+#uno, #due, #tre{float: left; width: 30%; margin: 10px}
+#quattro, #cinque, #sei{float: left; width: 30%; margin: 10px}
+#sette, #otto, #nove{float: left; width: 30%; margin: 10px}
+
+#uno img, #due img, #tre img, #quattro img, #cinque img, #sei img, #sette img, #otto img, #nove img{width: 150px; margin: 0 auto; padding-left: 70px; padding-right: 70px}
+#uno, #due, #tre, #quattro, #cinque, #sei, #sette, #otto, #nove{border: 2px #000080 solid; height: 200px; background-color: white; width: 300px }
+#uno:hover, #due:hover, #tre:hover, #quattro:hover, #cinque:hover, #sei:hover, #sette:hover, #otto:hover, #nove:hover{    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(2.0);}
+
+h1, h2{color: #CC7200}
+h2{text-align: right; margin-right: 12%}
+h1{margin-left: 12%}
+h3{text-align: center}
+
+
+
+
+
+
